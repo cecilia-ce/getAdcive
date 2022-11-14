@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(22, 2, 54), rgb(61, 3, 61));
+
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#container-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 60px;
+    margin-top: 20%;
+}
+
+#btn{
+    margin: 50px;
+    width: 25vw;
+    height: 10vh;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+#btn:hover{
+    background-image: linear-gradient(to right, rgb(22, 2, 54), rgb(61, 3, 61));
+    border-color: #fff;
+    border: 2px solid #fff;
+    color: #fff
+}
+
+#container-advice{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px; 
+    background-color: #fff;
+    border-radius: 50px;
+    width: 50vw;
+    color: black;
+}
+
+#img{
+    width: 10vw;
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 4, 8);
+    height: 14vh;
+    padding: 20px;
+    color: rgb(95, 95, 95);
+
+}
+
+.advice-text{
+    font-size: 25px;
+    margin: 5px;
+    overflow-wrap:break-word;
+    font-family: 'IM Fell English SC', serif;
+
+}
+
+@media (max-width: 500px){
+    #title{
+        font-size: 35px;
+        margin-top: 20%;
+    }
+
+    #subtitle{
+        font-size: 15px;
+    }
+
+    
+    #btn{
+        margin: 50px;
+        width: 40vw;
+        height: 10vh;
+        border-radius: 30px;
+        border: none;
+        background-color: #fff;
+        transition: all 0.5s ease-in-out;
+        font-size: 20px;
+    }
+
+    #container-advice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 10px; 
+        background-color: #fff;
+        border-radius: 50px;
+        width: 50vw;
+        color: black;
+    }
+
+    #img{
+        width: 20vw;
+        margin: 0;
+    }
+
+    
+    
+}
